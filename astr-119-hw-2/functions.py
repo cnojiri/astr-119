@@ -12,7 +12,7 @@ def show_expo(n):
 
 #define a main function
 def main():
-	n=10 	#provide a default 	value  for n 
+	n = 10 	#provide a default 	value  for n 
 
 	#check if there is a command line argument provided
 	if(len(sys.argv)>1):
@@ -21,6 +21,6 @@ def main():
 	show_expo(n) 		#call the show_expo subroutine
 
 
-	#run the main function
-	if __name__ == "__main__":
-		main()
+#run the main function need to make sure that the indentation is correct
+if __name__ == "__main__":
+	main()

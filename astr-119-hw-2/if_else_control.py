@@ -15,18 +15,18 @@ def flow_control(k):
 	print(s)
 
 	#define a main function
-	def main():
+def main():
 
-		#declare an integer
-		i = 0
+	#declare an integer
+	i = 0
 
-		# try flow_control for 0, 1, ,2
-		flow_control(i)
-		i = 1
-		flow_control(i)
-		i = 2
-		flow_control(i)
+	# try flow_control for 0, 1, ,2
+	flow_control(i)
+	i = 1
+	flow_control(i)
+	i = 2
+	flow_control(i)
 
-	#run the program
-	if __name__ == '__main__':
-		main()
+#run the program
+if __name__ == '__main__':
+	main()
